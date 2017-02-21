@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "secure-feed",
+  "version": "1.0.0",
+
+  "description": "Removes non-secure (HTTPS) articles from your news feed",
+  "browser_action": {
+    "default_title": "Make this page red"
+  },
+  // Optional
+  "author": "https://github.com/sgnl",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "icons": {},
+  "permissions": [
+    "activeTab"
+  ],
+  "minimum_chrome_version": "56"
+}
