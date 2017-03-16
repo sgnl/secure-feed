@@ -1,14 +1,13 @@
 {
   "manifest_version": 2,
   "name": "secure-feed",
-  "version": "1.0.0",
+  "version": "1.0.1",
 
-  "description": "Removes non-secure (HTTPS) articles from your news feed",
+  "description": "Removes non-secure (HTTP) articles from your Facebook news feed",
   "browser_action": {
     "default_title": "Make this page red"
   },
-  // Optional
-  "author": "https://github.com/sgnl",
+  "author": "https://github.com/sgnl/secure-feed",
   "background": {
     "scripts": ["background.js"],
     "persistent": true
